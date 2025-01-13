@@ -1,0 +1,51 @@
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# Environment variables and settings
+.env
+*.env
+
+# Flask-specific
+instance/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Virtual environments
+env/
+venv/
+ENV/
+myenv/
+
+# Pytest and coverage
+.pytest_cache/
+coverage/
+coverage.xml
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
